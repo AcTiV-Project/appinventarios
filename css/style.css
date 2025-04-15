@@ -1,0 +1,240 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+:root{
+      --color1: #f0f3f4;
+      --color2: #fbfcfc;
+}
+.grid{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 100px auto 100px;
+      grid-template-areas: 'header header'
+                           'section section'
+                           'footer footer';
+}
+.header{
+      grid-area: header;
+      background-color: #151F30;
+      color: white;
+
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.section{
+      width: 80%;
+      margin: auto;
+      grid-area: section;
+      background-color: var(--color1);
+}
+.footer{
+      grid-area: footer;
+      background-color: #151F30;
+      color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.footer a{
+      color: white;
+}
+.login{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+}
+.login div{
+      width: 50%;
+      height: 100vh;
+}
+.logo{
+      width: 80%;
+}
+.div-logo{
+      background-color: #151F30;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.div-form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.div-form form{
+      width: 90%;
+      height: 200px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+}
+.box-input{
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #151F30;
+}
+.btn-entrar{
+      width: 40%;
+      padding: 20px;
+      cursor: pointer;
+      color: white;
+      background-color: #151F30;
+      border-style: none;
+}
+.icono-logo{
+      width: 80px;
+}
+.content{
+      height: 200px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.present{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+.present div{
+      width: 30%;
+      height: 150px;
+      background-color: #151F30;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.div-content{
+      width: 80%;
+      margin: auto;
+}
+.tools{
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0px 20px;
+
+}
+.transactions{
+      width: 25%;
+      height: 250px;
+      background-color: var(--color2);
+
+      display: flex;
+      
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+}
+.transactions img{
+      width: 20%;
+}
+.transactions a{
+      text-decoration: none;
+      background-color: #151F30;
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+}
+.transaccion a{
+      margin: 20px;
+      text-decoration: none;
+}
+.transaccion form{
+      width: 50%;
+      gap: 20px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 10px;
+      margin: 30px;
+}
+.transaccion form input{
+      padding: 5px;
+}
+.btn-input{
+      height: 80px;
+      color: white;
+      cursor: pointer;
+      background-color: #151F30;
+      border-style: none;
+}
+.titulo{
+      font-size: 50px;
+      margin: 30px;
+}
+.info_producto{
+      width: 90%;
+      margin: auto;
+
+
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 50% auto;
+      grid-template-rows: 100px 100px 200px;
+      grid-template-areas: 'c1 c2'
+                           'c3 c4'
+                           'c5 c5';
+
+}
+.cajas{
+      background-color: var(--color2);
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      /*
+      -webkit-box-shadow: 10px 10px 11px 0px rgba(191,189,191,1);
+      -moz-box-shadow: 10px 10px 11px 0px rgba(191,189,191,1);
+      box-shadow: 10px 10px 11px 0px rgba(191,189,191,1);
+      */
+}
+.div_tabla{
+      margin-top: 20px;
+}
+.mitabla table{
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      margin-bottom: 20%;
+      border-color: #151F30;
+}
+table th{
+      color: white;
+      padding: 10px 30px 10px;
+      background-color: #151F30;
+}
+table td{
+      background-color: white;
+      padding: 10px 5px 10px;
+}
+.c1{
+      grid-area: c1;
+}
+.c2{
+      grid-area: c2;
+}
+.c3{
+      grid-area: c3;
+}
+.c4{
+      grid-area: c4;
+}
+.c5{
+      grid-area: c5;
+}
