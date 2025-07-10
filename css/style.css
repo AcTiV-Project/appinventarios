@@ -24,6 +24,9 @@
       align-items: center;
       justify-content: space-around;
 }
+.header a{
+      color: white;
+}
 .section{
       width: 80%;
       margin: auto;
@@ -132,7 +135,7 @@
       width: 25%;
       height: 250px;
       background-color: var(--color2);
-
+      cursor: pointer;
       display: flex;
       
       align-items: center;

@@ -4,8 +4,10 @@
       <!--CSS-->
       <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../css/responsive.css">
+      <link rel="stylesheet" href="../css/efectos_js.css">
 
       <!--JS-->
+      <script src="../js/01-script.js"></script>
 
 
       <meta charset="UTF-8">

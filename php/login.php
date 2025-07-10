@@ -5,7 +5,6 @@
     $nombre = $_POST['nombre'];
     $pass = $_POST['pass'];
 
-    // Usar sentencia preparada
     $stmt = $conexion->prepare("SELECT * FROM usuarios WHERE nombre = ? AND clave = ?");
     $stmt->bind_param("ss", $nombre, $pass);
     $stmt->execute();

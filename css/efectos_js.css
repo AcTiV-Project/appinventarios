@@ -1,0 +1,10 @@
+.transactions_efect:hover{
+      -webkit-box-shadow: 4px 7px 13px 0px rgba (219,219,219,1);
+      -moz-box-shadow: 4px 7px 13px 0px rgba (219,219,219,1);
+      box-shadow: 4px 7px 13px 0px rgba (219,219,219,1);
+      background-color: #1F2024;
+      color: white;
+      
+      transform: scale(.95);
+      transition-duration: 1000ms;
+}
